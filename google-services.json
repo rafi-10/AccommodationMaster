@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "373042597839",
+    "project_id": "accommodation-master-866a7",
+    "storage_bucket": "accommodation-master-866a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373042597839:android:3dee938377ded07a05ccba",
+        "android_client_info": {
+          "package_name": "com.example.accomodationmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373042597839-e41lbljcvvgacdjhbr51n4q1v9l535qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdLjV7aS8U_rCo2yCZ6rRwbe6pwCYeGG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373042597839-e41lbljcvvgacdjhbr51n4q1v9l535qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373042597839:android:4442b2fd093ec0a505ccba",
+        "android_client_info": {
+          "package_name": "com.rafi.accommodationmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373042597839-e41lbljcvvgacdjhbr51n4q1v9l535qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdLjV7aS8U_rCo2yCZ6rRwbe6pwCYeGG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373042597839-e41lbljcvvgacdjhbr51n4q1v9l535qc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
