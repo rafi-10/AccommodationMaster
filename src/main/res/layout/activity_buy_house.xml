@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rent_and_post"
+    android:background="@color/white">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_marginTop="10dp"
+        android:background="#E1F0F6">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:radius="15dp"
+            android:layout_gravity="fill"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/buy_cardview1"
+            app:cardBackgroundColor="#CFE2E8">
+
+
+
+            <TextView
+                android:id="@+id/buy_img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Ambarkhana"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+            android:radius="8dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="#CFE2E8"
+            android:id="@+id/buy_cardview2">
+
+            <TextView
+                android:id="@+id/buy_img2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Uposhahar"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+            android:radius="8dp"
+            app:cardUseCompatPadding="true"
+            app:cardBackgroundColor="#CFE2E8"
+            android:id="@+id/buy_cardview3">
+
+            <TextView
+                android:id="@+id/buy_img3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Subidbazar"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+            android:radius="8dp"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/buy_cardview4"
+            app:cardBackgroundColor="#CFE2E8">
+
+            <TextView
+                android:id="@+id/buy_img4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Pathantula"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+            android:radius="8dp"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/buy_cardview5"
+            app:cardBackgroundColor="#CFE2E8">
+
+            <TextView
+                android:id="@+id/buy_img5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="HousingEstate"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+            android:radius="8dp"
+            app:cardUseCompatPadding="true"
+            android:id="@+id/buy_cardview6"
+            app:cardBackgroundColor="#CFE2E8">
+
+            <TextView
+                android:id="@+id/buy_img6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Tilagor"
+                android:textStyle="bold"
+                android:textAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</RelativeLayout>
+
+
+

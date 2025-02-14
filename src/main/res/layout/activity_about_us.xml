@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/who_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-black"
+                android:padding="5dp"
+                android:text="Who we are ?"
+                android:textAlignment="center"
+                android:textSize="45sp"
+                android:textStyle="italic"/>
+
+
+            <View
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#22C5DA"
+                android:layout_marginEnd="40dp"
+                android:layout_marginStart="40dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif-monospace"
+                android:textColor="#02202E"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:text="Hola! We are the student of Leading University. This is our very first Android project, also this is our 3rd year project.
+We try to build Accommodation based application that can help people or student who is newer in town. Basically we did that for learning purpose so there has many lackings, limitations....Keep with us with you blessing, we are upgrade in process.
+
+"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                app:cardCornerRadius="250dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="250dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_profile"
+                        android:scaleType="centerCrop"/>
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Md.Jafrul Haque Rafi\n ID: 2012020259\n cse_2012020259@lus.ac.bd"
+                android:gravity="center"
+                android:fontFamily="serif"
+
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                app:cardCornerRadius="250dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="250dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_profile"
+                        android:scaleType="centerCrop"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tasfiah Tahsin Ahsan\n ID: 2012020258\n cse_2012020258@lus.ac.bd"
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="155dp"
+                android:layout_height="155dp"
+                app:cardCornerRadius="250dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    app:cardCornerRadius="250dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ic_profile"
+                        android:scaleType="centerCrop"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siti Chowdhury\n ID: 2012020351\n cse_2012020361@lus.ac.bd"
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+            <View
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#1A000000"
+                android:padding="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                />
+
+            <TextView
+                android:id="@+id/contactus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Us:\nEmail: cse_2012020259@lus.ac.bd\nPhone: +8801797224414\nSylhet, Bangladesh."
+                android:gravity="center"
+                android:fontFamily="serif"
+                android:textStyle="italic|bold"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
